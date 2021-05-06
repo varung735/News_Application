@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_item_news"
+        android:title="News"
+        android:icon="@drawable/ic_baseline_search_24" />
+
+    <item android:id="@+id/menu_item_favorites"
+        android:title="Favorites"
+        android:icon="@drawable/ic_baseline_star_24" />
+
+    <item
+        android:id="@+id/menu_item_languages"
+        android:title="Languages">
+
+        <menu>
+
+            <item android:id="@+id/menu_lang_eng"
+                android:title="English" />
+
+            <item android:id="@+id/menu_lang_hin"
+                android:title="Hindi" />
+
+            <item android:id="@+id/menu_lang_ger"
+                android:title="German" />
+
+            <item android:id="@+id/menu_lang_fre"
+                android:title="French" />
+
+        </menu>
+
+    </item>
+
+</menu>
